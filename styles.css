@@ -1,0 +1,160 @@
+*{
+    margin: o;
+    padding: 0;
+}
+
+body{
+    background-color: #B5C0D0;
+}
+
+section.container{
+    width: 80%;
+    margin: auto;
+}
+
+div.profile{
+    display: flex;
+    gap: 10%;
+    margin: auto;
+    width: 90%;
+}
+
+div.profile-details{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+div.links{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.p-link{
+    font-size: 1.5rem;
+    width: 90%;
+    margin: 5% auto;
+}
+
+h2,h3{
+    text-align: center;
+}
+
+span{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+ul{
+    background-color: #CCD3CA;
+    margin: 5%;
+    padding: 5%;
+    width: 80%;
+}
+
+li{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px;
+}
+
+@media screen and (max-width:640px) {
+    section.container{
+        width: 100%;
+        margin: auto;
+    }
+    
+    div.profile{
+        display: flex;
+        flex-direction: column;
+        gap: 2%;
+        margin: 0;
+    }
+
+    div.profile-img{
+        margin: auto;
+    }
+    
+    div.links{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    h2,h3{
+        text-align: center;
+    }
+
+    h2{
+        color: #EED3D9 ;
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+    
+    span{font-size: 1.5rem;
+        font-weight: 700;
+    }
+    
+    ul{
+        background-color: #CCD3CA;
+        margin: 5%;
+        padding: 6%;
+        width: 80%;
+    }
+    
+    li{
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width:960px) and (min-width:641px) {
+    section.container{
+        width: 100%;
+        margin: auto;
+    }
+    
+    div.profile{
+        display: flex;
+        gap: 2%;
+        margin: auto;
+        width: 90%;
+    }
+    
+    div.links{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    h2,h3{
+        text-align: center;
+    }
+
+    h2{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    h3{
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+    
+    span{font-size: 1.5rem;
+        font-weight: 700;
+    }
+    
+    ul{
+        background-color: #CCD3CA;
+        margin: 2%;
+        padding: 3%;
+        width: 90%;
+    }
+    
+    li{
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: 10px 0;
+    }
+}
